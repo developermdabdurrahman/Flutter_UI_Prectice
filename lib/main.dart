@@ -14,6 +14,7 @@ class calculatorApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       home: home(),
     );
   }
